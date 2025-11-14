@@ -62,7 +62,7 @@
       "rb-gray": "#858785"
     }
   },
-  "translationsBaseUrl": "/assets/i18n/",
+  "translationsBaseUrl": "managementportal/assets/i18n/",
   "locale": [
     {
       "code": "en",
