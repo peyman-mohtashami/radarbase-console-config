@@ -17,11 +17,11 @@
       "on-tertiary": "#ffffff"
     },
     "light": {
-      "primary": "#004F6E",
+      "primary": "#673ab7",
       "on-primary": "#ffffff",
-      "accent": "#22A2C9",
+      "accent": "#e91e63",
       "on-accent": "#ffffff",
-      "tertiary": "#004F6E",
+      "tertiary": "#9c27b0",
       "on-tertiary": "#ffffff"
     },
     "_light": {
