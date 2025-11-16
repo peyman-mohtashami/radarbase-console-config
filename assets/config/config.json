@@ -1,19 +1,19 @@
 {
   "theme": {
     "light": {
-      "primary": "#673ab7",
+      "primary": "#10795d",
       "on-primary": "#ffffff",
-      "accent": "#e91e63",
+      "accent": "#ee5416",
       "on-accent": "#ffffff",
-      "tertiary": "#9c27b0",
+      "tertiary": "#2d1d5b",
       "on-tertiary": "#ffffff"
     },
     "dark": {
-      "primary": "#22A2C9",
+      "primary": "#10795d",
       "on-primary": "#ffffff",
-      "accent": "#22A2C9",
+      "accent": "#ee5416",
       "on-accent": "#ffffff",
-      "tertiary": "#004F6E",
+      "tertiary": "#2d1d5b",
       "on-tertiary": "#ffffff"
     },
     "colorHints": {
@@ -53,8 +53,7 @@
     }
   ],
   "title": "The Hyve Console",
-  "logo": "https://peyman-mohtashami.github.io/radarbase-console-config/assets/images/the-hyve_logo.png",
-  "logo2": "https://www.thehyve.nl/static/img/logos/the-hyve_logo.png",
+  "logo": "https://peyman-mohtashami.github.io/radarbase-console-config/assets/images/the-hyve_logo-large_white.png",
   "branding": {
     "title": "Welcome to The Hyve RADAR-base Console",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
