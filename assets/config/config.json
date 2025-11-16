@@ -5,7 +5,7 @@
       "on-primary": "#ffffff",
       "accent": "#ee5416",
       "on-accent": "#ffffff",
-      "tertiary": "#2d1d5b",
+      "tertiary": "#10795d",
       "on-tertiary": "#ffffff"
     },
     "dark": {
@@ -13,7 +13,7 @@
       "on-primary": "#ffffff",
       "accent": "#ee5416",
       "on-accent": "#ffffff",
-      "tertiary": "#2d1d5b",
+      "tertiary": "#10795d",
       "on-tertiary": "#ffffff"
     },
     "colorHints": {
