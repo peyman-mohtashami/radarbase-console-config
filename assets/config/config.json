@@ -30,31 +30,33 @@
       "rb-gray": "#858785"
     }
   },
-  "translationsBaseUrl": "https://peyman-mohtashami.github.io/radarbase-console-config/assets/i18n/",
-  "locale": [
-    {
-      "code": "en",
-      "locale": "en-GB",
-      "label": "English",
-      "shortLabel": "EN",
-      "dateFormat": "dd/mm/yyyy"
-    },
-    {
-      "code": "nl",
-      "locale": "nl-NL",
-      "label": "Nederlands",
-      "dateFormat": "dd-mm-yyyy"
-    },
-    {
-      "code": "de",
-      "locale": "de-DE",
-      "label": "German",
-      "dateFormat": "dd-mm-yyyy"
-    }
-  ],
-  "title": "The Hyve Console",
-  "logo": "https://peyman-mohtashami.github.io/radarbase-console-config/assets/images/the-hyve_logo-large_white.png",
+  "locale": {
+    "languages":[
+      {
+        "code": "en",
+        "locale": "en-GB",
+        "label": "English",
+        "shortLabel": "EN",
+        "dateFormat": "dd/mm/yyyy"
+      },
+      {
+        "code": "nl",
+        "locale": "nl-NL",
+        "label": "Nederlands",
+        "dateFormat": "dd-mm-yyyy"
+      },
+      {
+        "code": "de",
+        "locale": "de-DE",
+        "label": "German",
+        "dateFormat": "dd-mm-yyyy"
+      }
+    ],
+    "translationsBaseUrl": "https://peyman-mohtashami.github.io/radarbase-console-config/assets/i18n/"
+  },
   "branding": {
+    "name": "The Hyve Console",
+    "logo": "https://peyman-mohtashami.github.io/radarbase-console-config/assets/images/the-hyve_logo-large_white.png",
     "title": "Welcome to The Hyve RADAR-base Console",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
   },
