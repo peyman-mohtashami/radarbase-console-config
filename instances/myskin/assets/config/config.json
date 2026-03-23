@@ -40,11 +40,11 @@
         "dateFormat": "dd/mm/yyyy"
       }
     ],
-    "translationsBaseUrl": "https://peyman-mohtashami.github.io/radarbase-console-config/instances/myskin/assets/i18n/myskin-logo.png"
+    "translationsBaseUrl": "https://peyman-mohtashami.github.io/radarbase-console-config/instances/myskin/assets/i18n/"
   },
   "branding": {
     "name": "MySkin Console",
-    "logo": "https://peyman-mohtashami.github.io/radarbase-console-config/instances/myskin/assets/images/",
+    "logo": "https://peyman-mohtashami.github.io/radarbase-console-config/instances/myskin/assets/images/myskin-logo.png",
     "title": "Welcome to MySkin RADAR-base Console",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
   },
