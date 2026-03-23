@@ -40,7 +40,7 @@
         "dateFormat": "dd/mm/yyyy"
       }
     ],
-    "translationsBaseUrl": "https://peyman-mohtashami.github.io/radarbase-console-config/instances/myskin/assets/i18n/"
+    "translationsBaseUrl": "https://peyman-mohtashami.github.io/radarbase-console-config/instances/myskin/assets/i18n/myskin-logo.svg"
   },
   "branding": {
     "name": "MySkin Console",
