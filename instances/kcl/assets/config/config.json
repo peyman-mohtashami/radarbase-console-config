@@ -1,0 +1,224 @@
+{
+  "theme": {
+    "light": {
+      "primary": "#E2241B",
+      "on-primary": "#ffffff",
+      "accent": "#0A2D50",
+      "on-accent": "#ffffff",
+      "tertiary": "#5A6369",
+      "on-tertiary": "#ffffff"
+    },
+    "dark": {
+      "primary": "#10795d",
+      "on-primary": "#ffffff",
+      "accent": "#ee5416",
+      "on-accent": "#ffffff",
+      "tertiary": "#10795d",
+      "on-tertiary": "#ffffff"
+    },
+    "colorHints": {
+      "amber": "#ffc107",
+      "deepPurple": "#673ab7",
+      "pink": "#ff4081",
+      "indigo": "#3f51b5",
+      "blueGrey": "#607d8b",
+      "pinkDark": "#e91e63",
+      "green": "#4caf50",
+      "purple": "#9c27b0",
+      "rb-dark-blue": "#004F6E",
+      "rb-light-blue": "#22A2C9",
+      "rb-gray": "#858785"
+    }
+  },
+  "locale": {
+    "languages":[
+      {
+        "code": "en",
+        "locale": "en-GB",
+        "label": "English",
+        "shortLabel": "EN",
+        "dateFormat": "dd/mm/yyyy"
+      }
+    ],
+    "translationsBaseUrl": "https://peyman-mohtashami.github.io/radarbase-console-config/instances/kcl/assets/i18n/"
+  },
+  "branding": {
+    "name": "KCL RADAR-base Console",
+    "logo": "https://peyman-mohtashami.github.io/radarbase-console-config/instances/kcl/assets/images/kcl-logo.svg",
+    "title": "Welcome to KCL RADAR-base Console",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  "entities": {
+    "organization": {
+      "fields": {
+        "location": true,
+        "description": true,
+        "projects": true
+      }
+    },
+    "project": {
+      "fields": {
+        "location": true,
+        "description": true,
+        "startDate": true,
+        "endDate": true,
+        "projectStatus": true,
+        "sourceTypes": true,
+        "humanReadableProjectName": true,
+        "attributes": true,
+        "attributes.Privacy-policy-url": true,
+        "attributes.Work-package": true,
+        "attributes.Phase": true,
+        "attributes.External-project-url": true,
+        "attributes.External-project-id": true
+      }
+    },
+    "client": {
+      "fields": {
+        "resourceIds": true,
+        "authorizedGrantTypes": true,
+        "dynamic_registration": true,
+        "accessTokenValiditySeconds": true,
+        "refreshTokenValiditySeconds": true,
+        "scope": true,
+        "autoApproveScopes": true,
+        "registeredRedirectUri": true
+      }
+    },
+    "subject": {
+      "fields": {
+        "personName": true,
+        "externalId": true,
+        "externalLink": true,
+        "dateOfBirth": true,
+        "group": true,
+        "status": true,
+        "sources": true,
+        "attributes": true,
+        "attributes.participant_group": true,
+        "attributes.humanReadableIdentifier": true,
+        "enrollmentDate": true,
+        "createdBy": true,
+        "createdDate": true,
+        "lastModifiedBy": true,
+        "lastModifiedDate": true
+      },
+      "extraFields": []
+    },
+    "user": {
+      "fields": {
+        "firstName": true,
+        "lastName": true,
+        "createdBy": true,
+        "createdDate": true,
+        "lastModifiedBy": true,
+        "lastModifiedDate": true,
+        "langKey": false
+      }
+    },
+    "_project": {
+      "fields": [
+        {
+          "name": "humanReadableProjectName",
+          "enabled": false
+        },
+        {
+          "name": "startDate",
+          "enabled": false
+        },
+        {
+          "name": "endDate",
+          "enabled": false
+        },
+        {
+          "name": "projectStatus",
+          "enabled": false
+        },
+        {
+          "name": "organizationName",
+          "enabled": false
+        },
+        {
+          "name": "attributes",
+          "enabled": false
+        },
+        {
+          "name": "attributes.Work-package",
+          "enabled": false
+        },
+        {
+          "name": "attributes.Phase",
+          "enabled": false
+        },
+        {
+          "name": "attributes.External-project-url",
+          "enabled": false
+        },
+        {
+          "name": "attributes.External-project-id",
+          "enabled": false
+        },
+        {
+          "name": "attributes.Privacy-policy-url",
+          "enabled": false
+        }
+      ],
+      "extraFields": [
+        {
+          "name": "midDate",
+          "type": "date",
+          "validators": {},
+          "minDate": "01-01-2023",
+          "maxDate": "01-01-2026"
+        },
+        {
+          "name": "projectState",
+          "type": "simpleSelect",
+          "validators": {},
+          "options": [
+            {
+              "value": "active",
+              "label": "Active"
+            },
+            {
+              "value": "inactive",
+              "label": "Inactive"
+            },
+            {
+              "value": "archived",
+              "label": "Archived"
+            }
+          ]
+        }
+      ]
+    },
+    "sourceType": {
+      "fields": {
+        "description": true,
+        "appProvider": true,
+        "assessmentType": true,
+        "name": true,
+        "sourceTypeScope": true,
+        "canRegisterDynamically": true,
+        "sourceData": true
+      }
+    },
+    "sourceData": {
+      "fields": {
+        "topic": true,
+        "processingState": true,
+        "keySchema": true,
+        "valueSchema": true,
+        "frequency": true,
+        "unit": true
+      }
+    },
+    "source": {
+      "fields": {
+        "expectedSourceName": true,
+        "attributes": true,
+        "attributes.External-identifier": true
+      }
+    }
+  }
+}
