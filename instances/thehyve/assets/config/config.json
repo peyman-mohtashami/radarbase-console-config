@@ -76,13 +76,13 @@
         "endDate": true,
         "projectStatus": true,
         "sourceTypes": true,
-        "humanReadableProjectName": true,
-        "attributes": true,
-        "attributes.Privacy-policy-url": true,
-        "attributes.Work-package": true,
-        "attributes.Phase": true,
-        "attributes.External-project-url": true,
-        "attributes.External-project-id": true
+        "humanReadableProjectName": false,
+        "attributes": false,
+        "attributes.Privacy-policy-url": false,
+        "attributes.Work-package": false,
+        "attributes.Phase": false,
+        "attributes.External-project-url": false,
+        "attributes.External-project-id": false
       }
     },
     "client": {
