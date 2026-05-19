@@ -913,8 +913,8 @@
     },
     "subject": {
       "title": {
-        "singular": "Subject",
-        "plural": "Subjects"
+        "singular": "Participant",
+        "plural": "Participants"
       },
       "id": {
         "tableLabel": "ID",
